@@ -15,8 +15,8 @@ const sendMail = async(req,res)=>{
 
     let info = await transporter.sendMail({
 
-        from: '"Pruthviraj Koravi 👻"', // sender address
-        to: "pruthvirajkoravi2000@gmail.com", // list of receivers
+        from: '" ABCD 👻"', // sender address
+        to: "ABCD@gmail.com", // list of receivers
         subject: "Hello Pruhvi", // Subject line
         text: "this mail is crated by mail sending app", // plain text body
         html: "<b>Hello world?</b>",
